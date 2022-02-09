@@ -4,8 +4,8 @@ import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import Home from "../pages/home";
 import Flute from "../pages/flute";
 import Clarinet from "../pages/clarinet";
-import AltoSaxophone from "../pages/altosaxophone";
-import TenorSaxophone from "../pages/tenorsaxophone";
+import AltoSaxophone from "../pages/altosax";
+import TenorSaxophone from "../pages/tenorsax";
 import Trumpet from "../pages/trumpet";
 import Trombone from "../pages/trombone";
 
@@ -30,10 +30,10 @@ function NavbarComp() {
                 <NavDropdown.Item as={Link} to={"/clarinet"}>
                   clarinet
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to={"/altosaxophone"}>
+                <NavDropdown.Item as={Link} to={"/altosax"}>
                   alto saxophone
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to={"/tenorsaxophone"}>
+                <NavDropdown.Item as={Link} to={"/tenorsax"}>
                   tenor saxophone
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to={"/trumpet"}>
@@ -51,8 +51,8 @@ function NavbarComp() {
         <Route path="/home" element={<Home />} />
         <Route path="/flute" element={<Flute />} />
         <Route path="/clarinet" element={<Clarinet />} />
-        <Route path="/altosaxophone" element={<AltoSaxophone />} />
-        <Route path="/tenorsaxophone" element={<TenorSaxophone />} />
+        <Route path="/altosax" element={<AltoSaxophone />} />
+        <Route path="/tenorsax" element={<TenorSaxophone />} />
         <Route path="/trumpet" element={<Trumpet />} />
         <Route path="/trombone" element={<Trombone />} />
       </Routes>

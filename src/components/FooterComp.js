@@ -1,6 +1,6 @@
 function FooterComp() {
     return (
-<div className="jumbotron"></div>
+<div className="footer"></div>
     )
 }
 

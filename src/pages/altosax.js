@@ -1,17 +1,16 @@
 import "../App.css";
 import { Image } from "react-bootstrap";
-import trumpetImg from "../assets/images/trumpet.png";
+import altoSaxImg from "../assets/images/altosax.png";
 
-function Trumpet() {
+function AltoSaxophone() {
   return (
     <div>
       <main>
         <div className="header">
           <Image
             fluid
-            src={trumpetImg}
-            alt="trumpet"
-            style={{ marginTop: 100 }}
+            src={altoSaxImg}
+            alt="alto saxophone"
           />
         </div>
 
@@ -21,4 +20,4 @@ function Trumpet() {
   );
 }
 
-export default Trumpet;
+export default AltoSaxophone;
