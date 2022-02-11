@@ -14,13 +14,13 @@ function NavbarComp() {
     <div>
       <Navbar bg="dark" variant={"dark"} expand="lg">
         <Container fluid>
-          <Navbar.Brand as={Link} to={"/home"}>
+          <Navbar.Brand as={Link} to={"/"}>
             ApostolicHorns
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as={Link} to={"/home"}>
+              <Nav.Link as={Link} to={"/"}>
                 home
               </Nav.Link>
               <NavDropdown title="sheet music" id="basic-nav-dropdown">
@@ -48,7 +48,7 @@ function NavbarComp() {
         </Container>
       </Navbar>
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/flute" element={<Flute />} />
         <Route path="/clarinet" element={<Clarinet />} />
         <Route path="/altosax" element={<AltoSaxophone />} />

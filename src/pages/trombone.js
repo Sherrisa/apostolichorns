@@ -11,7 +11,7 @@ function Trombone() {
             fluid
             src={tromboneImg}
             alt="trombone"
-            style={{ marginTop: 100 }}
+            style={{ marginTop: 25 }}
           />
         </div>
 

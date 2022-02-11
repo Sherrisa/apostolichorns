@@ -11,7 +11,7 @@ function Trumpet() {
             fluid
             src={trumpetImg}
             alt="trumpet"
-            style={{ marginTop: 100 }}
+            style={{ marginTop: 35 }}
           />
         </div>
 

@@ -1,22 +1,31 @@
 import "../App.css";
-import { Image } from "react-bootstrap";
+import { Image, Container, Row, Col, Anchor } from "react-bootstrap";
+// Do I actually have to do it this way?
 import fluteImg from "../assets/images/flute.svg";
+import anointingFlutePDF from "../assets/images/flute/anointing_Flute.pdf"
+import anointingFlute from "../assets/images/flute/anointing_Flute255.jpg"
 
 function Flute() {
   return (
     <div>
-      <main>
         <div className="header">
         <Image
           src={fluteImg}
           alt="flute"
           width="500px"
-          style={{ marginTop: 80 }}
+          style={{ marginTop: 20 }}
         />
         </div>
-        
-        <div className="body"></div>
-      </main>
+        <Container className="body" fluid>
+          <Row>
+            <Col>
+              <Anchor href={anointingFlutePDF} >
+                {/* Looks like you can't use a pdf as an image */}
+                <Image src={anointingFlute} style={{ margin: 50 }} />
+              </Anchor>
+            </Col>
+          </Row>
+        </Container>
     </div>
   );
 }

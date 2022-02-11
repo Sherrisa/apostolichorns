@@ -1,7 +1,7 @@
 .header {
   background: white;
   color: black;
-  height: 400px;
+  height: 200px;
   text-align: center;
 }
 
@@ -15,6 +15,6 @@ h2 {
 }
 
 .body {
-  height: 300px;
+  height: 520px;
   background: black;
 }
