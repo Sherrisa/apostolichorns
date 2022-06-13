@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('./assets/fonts/Montserrat-Regular.ttf') format('ttf');
+}
+
+main {
+  font-family: Montserrat-Regular;
+}
+
+.navbar {
+  font-family: Montserrat-Regular;
+}
+
+.header {
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+.sheetMusic {
+  background: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+.test {
+  font-family: Montserrat-Regular;
+}

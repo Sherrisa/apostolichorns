@@ -1,5 +1,5 @@
-import "../App.css";
-import { Image, Container, Row, Col, Anchor, } from "react-bootstrap";
+import "../App.scss";
+import { Image, Container, Row, Col, Anchor } from "react-bootstrap";
 import tromboneImg from "../assets/images/trombone/trombone.png";
 import meetingTrombone from "../assets/images/trombone/meeting_Trombone.png";
 import meetingTrombonePDF from "../assets/images/trombone/meeting_Trombone.pdf";
@@ -12,14 +12,18 @@ function Trombone() {
           fluid
           src={tromboneImg}
           alt="trombone"
-          style={{ marginTop: 25 }}
+          style={{ marginTop: 50, marginBottom: 50 }}
         />
       </div>
-      <Container className="body" fluid>
+      <Container className="sheetMusic" fluid>
         <Row>
           <Col>
             <Anchor href={meetingTrombonePDF}>
-              <Image src={meetingTrombone} width="300px" style={{ margin: 20 }}/>
+              <Image
+                src={meetingTrombone}
+                width="300px"
+                style={{ margin: 20 }}
+              />
             </Anchor>
           </Col>
         </Row>

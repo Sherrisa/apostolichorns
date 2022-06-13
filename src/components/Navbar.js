@@ -1,4 +1,5 @@
 import * as React from "react";
+import "../App.scss";
 import { Link, Routes, Route } from "react-router-dom";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import Home from "../pages/home";
@@ -12,7 +13,7 @@ import Trombone from "../pages/trombone";
 function NavbarComp() {
   return (
     <div>
-      <Navbar bg="dark" variant={"dark"} expand="lg">
+      <Navbar className="navbar" bg="dark" variant={"dark"} expand="lg">
         <Container fluid>
           <Navbar.Brand as={Link} to={"/"}>
             Apostolic Horns

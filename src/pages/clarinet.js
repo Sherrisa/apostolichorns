@@ -1,4 +1,4 @@
-import "../App.css";
+import "../App.scss";
 import { Image, Container, Row, Col, Anchor, } from "react-bootstrap";
 import meetingClarinet from "../assets/images/clarinet/meeting_Clarinet.png";
 import meetingClarinetPDF from "../assets/images/clarinet/meeting_Clarinet.pdf";

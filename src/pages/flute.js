@@ -1,6 +1,6 @@
-import "../App.css";
+import "../App.scss";
 import { Image, Container, Row, Col, Anchor } from "react-bootstrap";
-import fluteImg from "../assets/images/flute/flute.svg";
+import fluteImg from "../assets/images/flute/flute.png";
 import meetingFlute from "../assets/images/flute/meeting_Flute.png";
 import meetingFlutePDF from "../assets/images/flute/meeting_Flute.pdf";
 
@@ -8,9 +8,13 @@ function Flute() {
   return (
     <div>
       <div className="header">
-        <Image src={fluteImg} alt="flute" />
+        <Image
+          src={fluteImg}
+          alt="flute"
+          style={{ marginTop: 100, marginBottom: 100, width: 400 }}
+        />
       </div>
-      <Container className="body" fluid>
+      <Container className="sheetMusic" fluid>
         <Row>
           <Col>
             <Anchor href={meetingFlutePDF}>

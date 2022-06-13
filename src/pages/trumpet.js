@@ -1,4 +1,4 @@
-import "../App.css";
+import "../App.scss";
 import { Image, Container, Row, Col, Anchor } from "react-bootstrap";
 import trumpetImg from "../assets/images/trumpet/trumpet.png";
 import meetingTrumpet from "../assets/images/trumpet/meeting_Trumpet.png";
@@ -11,14 +11,18 @@ function Trumpet() {
         <Image
           src={trumpetImg}
           alt="flute"
-          style={{ marginTop: 20 }}
+          style={{ marginTop: 50, marginBottom: 50 }}
         />
       </div>
-      <Container className="body" fluid>
+      <Container className="sheetMusic" fluid>
         <Row>
           <Col>
             <Anchor href={meetingTrumpetPDF}>
-              <Image src={meetingTrumpet} width="300px" style={{ margin: 20 }} />
+              <Image
+                src={meetingTrumpet}
+                width="300px"
+                style={{ margin: 20 }}
+              />
             </Anchor>
           </Col>
         </Row>

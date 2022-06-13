@@ -1,4 +1,4 @@
-import "../App.css";
+import "../App.scss";
 import { Image, Container, Row, Col, Anchor } from "react-bootstrap";
 import altoSaxImg from "../assets/images/altosax/altosax.png";
 import meetingAlto from "../assets/images/altosax/meeting_AltoSaxophone.png";
@@ -10,7 +10,7 @@ function AltoSaxophone() {
       <div className="header">
         <Image fluid src={altoSaxImg} alt="alto saxophone" />
       </div>
-      <Container className="body" fluid>
+      <Container className="sheetMusic" fluid>
         <Row>
           <Col>
             <Anchor href={meetingAltoPDF}>

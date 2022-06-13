@@ -1,4 +1,4 @@
-import "../App.css";
+import "../App.scss";
 import { Image, Container, Row, Col, Anchor, } from "react-bootstrap";
 import tenorSaxImg from "../assets/images/tenorsax/tenorsax.png";
 import meetingTenor from "../assets/images/tenorsax/meeting_TenorSaxophone.png";
@@ -10,7 +10,7 @@ function TenorSaxophone() {
       <div className="header">
         <Image fluid src={tenorSaxImg} alt="tenor saxophone" />
       </div>
-      <Container className="body" fluid>
+      <Container className="sheetMusic" fluid>
         <Row>
           <Col>
             <Anchor href={meetingTenorPDF}>
