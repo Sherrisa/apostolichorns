@@ -1,8 +1,8 @@
 import * as React from "react";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavbarComp from "./components/NavbarComp";
-import FooterComp from "./components/FooterComp";
+import NavbarComp from "./components/Navbar";
+import FooterComp from "./components/Footer";
 
 function App() {
   return (

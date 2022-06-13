@@ -15,7 +15,7 @@ function NavbarComp() {
       <Navbar bg="dark" variant={"dark"} expand="lg">
         <Container fluid>
           <Navbar.Brand as={Link} to={"/"}>
-            ApostolicHorns
+            Apostolic Horns
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

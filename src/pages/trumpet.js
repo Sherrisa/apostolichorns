@@ -1,22 +1,28 @@
 import "../App.css";
-import { Image } from "react-bootstrap";
-import trumpetImg from "../assets/images/trumpet.png";
+import { Image, Container, Row, Col, Anchor } from "react-bootstrap";
+import trumpetImg from "../assets/images/trumpet/trumpet.png";
+import meetingTrumpet from "../assets/images/trumpet/meeting_Trumpet.png";
+import meetingTrumpetPDF from "../assets/images/trumpet/meeting_Trumpet.pdf";
 
 function Trumpet() {
   return (
     <div>
-      <main>
-        <div className="header">
-          <Image
-            fluid
-            src={trumpetImg}
-            alt="trumpet"
-            style={{ marginTop: 35 }}
-          />
-        </div>
-
-        <div className="body"></div>
-      </main>
+      <div className="header">
+        <Image
+          src={trumpetImg}
+          alt="flute"
+          style={{ marginTop: 20 }}
+        />
+      </div>
+      <Container className="body" fluid>
+        <Row>
+          <Col>
+            <Anchor href={meetingTrumpetPDF}>
+              <Image src={meetingTrumpet} width="300px" style={{ margin: 20 }} />
+            </Anchor>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

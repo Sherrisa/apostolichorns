@@ -1,0 +1,13 @@
+const scaleDegrees = ["1", "b9", "2", "b3", "3", "4", "b5", "5", "#5", "6", "b7", "7", "octave", "b9", "9", "#9", "10", "11", "#11", "12", "#12", "13"];
+const scaleFsharp = ["F#", "G", "G#", "A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B", "C", "C#", "D", "D#"];
+const scaleB = ["B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"];
+const scaleE = ["E", "F", "F#", "G", "G#", "A", "Bb", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "Bb", "B"];
+const scaleA = ["A", "Bb", "B", "C", "C#", "D", "Eb", "E", "F", "F#", "G", "G#", "A", "Bb", "B", "C", "C#", "D", "Eb", "E", "F", "F#"];
+const scaleD = ["D", "Eb", "E", "F", "F#", "G", "Ab", "A", "A#", "B", "C", "C#", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "A#", "B"];
+const scaleG = ["G", "Ab", "A", "Bb", "B", "C", "Db", "D", "D#", "E", "F", "F#", "G", "Ab", "A", "A#", "B", "C", "Db", "D", "D#", "E"]; 
+const scaleC = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "G#", "A", "Bb", "B", "C", "Db", "D", "D#", "E", "F", "Gb", "G", "G#", "A"];
+const scaleF = ["F", "Gb", "G", "Ab", "A", "Bb", "B", "C", "C#", "D", "Eb", "E", "F", "Gb", "G", "G#", "A", "Bb", "B", "C", "C#", "D"];
+const scaleBb = ["Bb", "B", "C", "Db", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B", "C", "C#", "D", "Eb", "E", "F", "F#", "G"];
+const scaleEb = ["Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B", "C", "Db", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B", "C"];
+const scaleAb = ["Ab", "A", "Bb", "B", "C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B", "C", "Db", "D", "Eb", "E", "F"];
+const scaleDb = ["Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B", "C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb"];
