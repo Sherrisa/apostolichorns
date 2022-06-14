@@ -11,7 +11,7 @@ function Flute() {
         <Image
           src={fluteImg}
           alt="flute"
-          style={{ marginTop: 100, marginBottom: 100, width: 400 }}
+          style={{ marginTop: 100, marginBottom: 100, width: 350 }}
         />
       </div>
       <Container className="sheetMusic" fluid>

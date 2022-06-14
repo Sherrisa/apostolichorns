@@ -11,7 +11,7 @@ function Trumpet() {
         <Image
           src={trumpetImg}
           alt="flute"
-          style={{ marginTop: 50, marginBottom: 50 }}
+          style={{ marginTop: 50, marginBottom: 50, width: 350 }}
         />
       </div>
       <Container className="sheetMusic" fluid>

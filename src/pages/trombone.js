@@ -12,7 +12,7 @@ function Trombone() {
           fluid
           src={tromboneImg}
           alt="trombone"
-          style={{ marginTop: 50, marginBottom: 50 }}
+          style={{ marginTop: 50, marginBottom: 50, width: 350 }}
         />
       </div>
       <Container className="sheetMusic" fluid>
