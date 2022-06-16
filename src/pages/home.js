@@ -5,14 +5,15 @@ import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
 import Header from "../components/Header";
 import MajorScales from "../components/MajorScales";
+import MinorScales from "../components/MinorScales";
 
 function Home() {
   return (
     <>
       <Header />
-      <Container>
+      <Container className="home">
         <Row>
-          <Col md={6}>
+          <Col>
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="1">
                 <Accordion.Header>Schedule a Lesson</Accordion.Header>
@@ -30,12 +31,24 @@ function Home() {
               </Accordion.Item>
             </Accordion>
           </Col>
-          <Col>
+        </Row>
+        <Row>
+          <Col lg={6}>
           <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="1">
                 <Accordion.Header>Major Scales</Accordion.Header>
                 <Accordion.Body>
                   <MajorScales />
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+          </Col>
+          <Col lg={6}>
+          <Accordion defaultActiveKey="0">
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>Natural Minor Scales</Accordion.Header>
+                <Accordion.Body>
+                  <MinorScales />
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
