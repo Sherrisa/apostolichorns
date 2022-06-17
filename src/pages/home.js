@@ -1,9 +1,11 @@
 import "../App.scss";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
-import Header from "../components/Header";
 import MajorScales from "../components/MajorScales";
 import MinorScales from "../components/MinorScales";
 
@@ -14,27 +16,15 @@ function Home() {
       <Container className="home">
         <Row>
           <Col>
-            <Accordion defaultActiveKey="0">
-              <Accordion.Item eventKey="1">
-                <Accordion.Header>Schedule a Lesson</Accordion.Header>
-                <Accordion.Body>
-                  <p>
-                    Lessons are available at my home or by phone. To schedule,
-                    click on the link below.
-                  </p>
-                  <p className="calendly">
-                    <a href="https://calendly.com/sherrisaclasson/private-lesson">
-                      calend.ly scheduler
-                    </a>
-                  </p>
-                </Accordion.Body>
-              </Accordion.Item>
-            </Accordion>
+            <a href="https://calendly.com/sherrisaclasson/private-lesson">
+              <Button  variant={"dark"} style={{ marginBottom: 30 }}>Schedule a Lesson</Button>
+              
+            </a>
           </Col>
         </Row>
         <Row>
-          <Col lg={6}>
-          <Accordion defaultActiveKey="0">
+          <Col lg={6} style={{ marginBottom: 30 }}>
+            <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="1">
                 <Accordion.Header>Major Scales</Accordion.Header>
                 <Accordion.Body>
@@ -44,7 +34,7 @@ function Home() {
             </Accordion>
           </Col>
           <Col lg={6}>
-          <Accordion defaultActiveKey="0">
+            <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="1">
                 <Accordion.Header>Natural Minor Scales</Accordion.Header>
                 <Accordion.Body>
@@ -55,6 +45,7 @@ function Home() {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   );
 }

@@ -14,6 +14,7 @@ June 12: Heroku
 June 13: Customized font to Montserrat
 June 13/14: MajorScales.js
 June 15: MinorScales.js
-June 16: Change 'Schedule a Lesson' to Button; tagline
-June 17: Footer; Apostolic Horns fonts
+June 16: Change 'Schedule a Lesson' to Button; 
+         float header image right;
+June 17: Footer; Apostolic Horns fonts; on hover pink
 June 18: Podcast or YouTube video
