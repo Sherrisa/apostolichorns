@@ -15,6 +15,10 @@ June 13: Customized font to Montserrat
 June 13/14: MajorScales.js
 June 15: MinorScales.js
 June 16: Change 'Schedule a Lesson' to Button; 
-         float header image right;
-June 17: Footer; Apostolic Horns fonts; on hover pink
-June 18: Podcast or YouTube video
+         float header image right; 
+         Footer
+June 17: PlayAlong Component
+June 18: Add podcasts or videos
+June 19: Apostolic Horns fonts; on hover pink
+
+
