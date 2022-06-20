@@ -18,7 +18,10 @@ June 16: Change 'Schedule a Lesson' to Button;
          float header image right; 
          Footer
 June 17: PlayAlong Component
-June 18: Add podcasts or videos
-June 19: Apostolic Horns fonts; on hover pink
+June 18:
+June 19: 14 lines of code to 6 instrument pages
+
+Add podcasts or videos
+Apostolic Horns fonts; on hover pink
 
 
