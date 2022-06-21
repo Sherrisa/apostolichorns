@@ -14,13 +14,6 @@ const PlayAlongs = () => {
       <Container>
         <Row>
           <Col lg={4}>
-            <p>Falling in Love with Jesus</p>
-            <audio controls>
-              <source src={fallingInLove} type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </Col>
-          <Col lg={4}>
             <p>Meeting in the Air</p>
             <audio controls>
               <source src={meeting} type="audio/mpeg" />
@@ -31,6 +24,13 @@ const PlayAlongs = () => {
             <p>Surely the Presence of the Lord</p>
             <audio controls>
               <source src={surely} type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+          </Col>
+          <Col lg={4}>
+            <p>Falling in Love with Jesus</p>
+            <audio controls>
+              <source src={fallingInLove} type="audio/mpeg" />
               Your browser does not support the audio element.
             </audio>
           </Col>

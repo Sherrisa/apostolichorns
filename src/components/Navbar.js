@@ -10,6 +10,7 @@ import TenorSaxophone from "../pages/tenorsax";
 import Trumpet from "../pages/trumpet";
 import Trombone from "../pages/trombone";
 import PlayAlongs from "../pages/playalongs";
+import Piano from "../pages/piano";
 
 function NavbarComp() {
   return (
@@ -48,6 +49,9 @@ function NavbarComp() {
               <Nav.Link as={Link} to={"/play-alongs"}>
                 play-alongs
               </Nav.Link>
+              <Nav.Link as={Link} to={"/piano"}>
+                piano
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -61,6 +65,7 @@ function NavbarComp() {
         <Route path="/trumpet" element={<Trumpet />} />
         <Route path="/trombone" element={<Trombone />} />
         <Route path="/play-alongs" element={<PlayAlongs />} />
+        <Route path="/piano" element={<Piano />} />
       </Routes>
     </div>
   );
